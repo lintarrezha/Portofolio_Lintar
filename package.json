@@ -1,0 +1,49 @@
+{
+  "name": "portofolio-next-main",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "![Portfolio Website Screenshot](public/screenshot.png)",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-email/components": "^0.0.7",
+    "@react-email/tailwind": "^0.0.8",
+    "@types/node": "20.4.8",
+    "@types/react": "18.2.18",
+    "@types/react-dom": "18.2.7",
+    "@vercel/analytics": "^1.0.2",
+    "@vercel/speed-insights": "^1.0.2",
+    "autoprefixer": "^10.4.14",
+    "clsx": "^2.0.0",
+    "framer-motion": "^10.18.0",
+    "glob": "^11.0.0",
+    "next": "13.4.12",
+    "postcss": "^8.4.27",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.10.1",
+    "react-intersection-observer": "^9.5.2",
+    "react-vertical-timeline-component": "^3.6.0",
+    "resend": "^0.17.2",
+    "rimraf": "^6.0.1",
+    "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@types/react-vertical-timeline-component": "^3.3.3",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "13.4.13",
+    "tailwindcss": "^3.4.17"
+  },
+  "keywords": [],
+  "author": "Lintar Rezha Candra Krisna <lintarrezha7@gmail.com>",
+  "license": "ISC"
+}
