@@ -106,7 +106,11 @@ export default function Contact() {
         <SubmitBtn />
       </form>
 
-      <p className="text-gray-700 -mt-6 dark:text-white/80"><br /><br />Visit the social media I have:</p>
+      <p className="text-gray-700 -mt-6 dark:text-white/80">
+        <br />
+        <br />
+        Visit the social media I have:
+      </p>
 
       <motion.div
         className="flex flex-row items-center justify-center mt-5 gap-2 px-4 text-lg font-medium"
@@ -117,7 +121,7 @@ export default function Contact() {
         }}
       >
         <a
-          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/lintarrezha/"
           target="_blank"
         >
@@ -146,7 +150,7 @@ export default function Contact() {
         </a>
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://id.pinterest.com/lintarrezha/_pins/"
+          href="https://pin.it/2xEjheTky"
           target="_blank"
         >
           <BsPinterest />

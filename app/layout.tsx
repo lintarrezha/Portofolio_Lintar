@@ -11,9 +11,9 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const inter = Inter({ subsets: ['latin'] });
 const baseUrlMeta = 'http://localhost:3000/';
-//const baseUrlMeta = `${new URL("https://bayumaulanaikhsan.my.id/")}`;
+//const baseUrlMeta = `${new URL("https://linxyz-nine.vercel.app/")}`;
 export const metadata = {
-  //metadataBase: new URL("https://bayumaulanaikhsan.my.id/"),
+  metadataBase: new URL("https://linxyz-nine.vercel.app/"),
   title: 'Lintar Rezha | Portfolio',
   description: 'Lintar Rezha Candra Krisna is a web developer with 2 years of experience.',
   author: 'Lintar Rezha Candra Krisna',

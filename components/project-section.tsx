@@ -91,8 +91,8 @@ const ProjectSection: React.FC = () => {
                 src={project.image}
                 alt={project.title}
                 className="w-full h-49 object-cover"
-                width="100%" // Atur lebar sesuai kebutuhan atau gunakan persentase
-                height="196" // Atur tinggi sesuai kebutuhan
+                width="100%"
+                height="196"
               />
               <div className="p-4">
                 <h3 className="text-xl font-semibold mb-2 dark:text-white">

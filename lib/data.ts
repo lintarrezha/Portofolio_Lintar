@@ -1,7 +1,5 @@
 import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
-// import { FaReact } from 'react-icons/fa';
-// import { LuGraduationCap } from 'react-icons/lu';
 
 export const links = [
   {
@@ -66,7 +64,7 @@ export const projectsData = [
     description: 'This Quran application is a Flutter application project based on Mobile (android) and uses API from EQuran.id.',
     image: 'images/project/quran-app/1.png',
     screenshots: ['images/project/quran-app/2.png', 'images/project/quran-app/3.png', 'images/project/quran-app/4.png', 'images/project/quran-app/5.png'],
-    tech: ['/images/icon/figma.svg', '/images/icon/flutter.svg', '/images/icon/Dart.svg', '/images/icon/c++.svg', '/images/icon/Swift.svg'],
+    tech: ['/images/icon/figma.svg', '/images/icon/flutter.svg', '/images/icon/Dart.svg', '/images/icon/C++.svg', '/images/icon/Swift.svg'],
     demoUrl: null,
     githubUrl: 'https://github.com/lintarrezha/quran_app',
     features: ['Read Surah'],
