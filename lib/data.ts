@@ -104,6 +104,18 @@ export const projectsData = [
     languages: ['HTML', 'CSS', 'JavaScript'],
   },
   {
+    title: 'Monitoring Peserta Magang',
+    description:
+      'This application is designed to help manage internship activities with a web-based attendance system at the Badan Kesatuan Bangsa dan Politik Kota Batu. The main purpose of the application is to make it easier for agencies or companies to monitor the attendance of interns in real-time. With a simple interface and relevant features, this application ensures internship data management becomes more efficient and organized.',
+    screenshots: ['images/project/monitoring/1.png', 'images/project/monitoring/2.png', 'images/project/monitoring/3.png', 'images/project/monitoring/4.png'],
+    image: 'images/project/monitoring/1.png',
+    tech: ['/images/icon/php.svg', '/images/icon/mysql.svg', '/images/icon/bootstrap.svg', '/images/icon/javascript.svg', '/images/icon/html-5.svg', '/images/icon/css.svg'],
+    demoUrl: null,
+    githubUrl: null,
+    features: ['Login as Admin/Mahasiswa', 'CRUD', 'Realtime'],
+    languages: ['PHP', 'MySQL', 'Bootstrap', 'HTML', 'CSS', 'JavaScript'],
+  },
+  {
     title: 'Portofolio Website V1',
     description: 'This website is a simple personal portfolio website created as a template & learning using simple HTML, CSS, and JavaScript. However, there are still many bugs and it still looks messy.',
     screenshots: ['images/project/portofolio-html/1.png', 'images/project/portofolio-html/2.png'],

@@ -65,8 +65,8 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-semibold">1 month</span> self-taught experience in Web
-        development, using <span className="font-semibold">Tailwind, HTML, CSS and JavaScript</span> for
+        <span className="font-semibold">4 months</span> self-taught experience in Web
+        development, using <span className="font-semibold">TailwindCSS, HTML, CSS and JavaScript</span> for
         developing a website and web applications.
       </motion.h4>
       <motion.div
