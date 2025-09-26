@@ -29,6 +29,14 @@ export const links = [
 ] as const;
 export const experiencesData = [
   {
+    title: 'Indosat ooredoo hutchison',
+    location: 'IDCamp 2025 | dicoding',
+    description:
+      'A free coding scholarship program organized by Indosat Ooredoo Hutchison. The goal is to develop young Indonesian digital talent who are ready to compete in the global digital economy, with various learning paths available in fields such as artificial intelligence (AI), web development, and others.',
+    icon: React.createElement(CgWorkAlt),
+    date: 'Sep 2025 - Dec 2025',
+  },
+  {
     title: 'Project Research',
     location: 'Dinas Sosial Kota Batu',
     description: 'Designing a web-based information system at the Social Services Agency of Batu City to monitor the activities and attendance of student interns and as material for final project research.',
