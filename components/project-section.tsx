@@ -98,7 +98,7 @@ const ProjectSection: React.FC = () => {
                 <h3 className="text-xl font-semibold mb-2 dark:text-white">
                   {project.title}
                 </h3>
-                <p className="text-gray-600 dark:text-gray-200 mb-4 text-justify">
+                <p className="text-gray-600 dark:text-gray-200 mb-4 text-justify line-clamp-2">
                   {project.description}
                 </p>
                 <div className="flex justify-between items-end">
