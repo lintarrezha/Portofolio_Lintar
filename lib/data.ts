@@ -29,15 +29,29 @@ export const links = [
 ] as const;
 export const experiencesData = [
   {
+    title: 'Project Research',
+    location: 'Dinas Sosial Kota Batu',
+    description: 'Designing a web-based information system at the Social Services Agency of Batu City to monitor the activities and attendance of student interns and as material for final project research.',
+    icon: React.createElement(CgWorkAlt),
+    date: 'Feb 2025 - Mei 2025',
+  },
+  {
+    title: 'Internship',
+    location: 'Dinas Sosial Kota Batu',
+    description: 'Completed a one-month internship at the Social Services Office of Batu City to fulfill the graduation requirements as a student.',
+    icon: React.createElement(CgWorkAlt),
+    date: 'Jan 2025 - Feb 2025',
+  },
+  {
     title: 'Web Development',
     location: 'Dunia Coding',
     description: 'Participated in the Tailwind CSS mini class held by Dunia Coding and conducted online through Google Meet.',
     icon: React.createElement(CgWorkAlt),
-    date: 'Dec 2024 - Present',
+    date: 'Dec 2024 - Jan 2025',
   },
   {
     title: 'Mobile Development',
-    location: 'Dicoding Indonesia mitra Bangkit Academy',
+    location: 'Dicoding Indonesia | Bangkit Academy',
     description: 'MBKM Certified Independent Study Internship (MSIB) Batch 5 on the Bangkit Academy 2023 learning path Mobile Development partner program.',
     icon: React.createElement(CgWorkAlt),
     date: 'Aug 2023 - Dec 2023',
@@ -50,11 +64,11 @@ export const experiencesData = [
     date: 'Aug 2021 - Feb 2022',
   },
   {
-    title: 'Undergraduate Student of Informatics Engineering',
+    title: 'Student of Informatics Engineering',
     location: 'University of Muhammadiyah Malang',
     description: 'Started his journey as a student in 2021, studying Informatics Engineering at Universitas Muhammadiyah Malang (UMM).',
     icon: React.createElement(CgWorkAlt),
-    date: 'Oct 2021 - Now',
+    date: 'Oct 2021 - Aug 2025',
   },
 ] as const;
 
