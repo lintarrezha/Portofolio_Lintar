@@ -38,10 +38,10 @@ export default function Contact() {
       <SectionHeading>Get In Touch</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        In addition, I am also currently opening up opportunities for freelance or part-time work. If you have an interesting project or need additional help and might fit my position, please feel free to get in touch!
+        Selain itu, saya juga membuka peluang untuk proyek freelance atau pekerjaan paruh waktu. Jika Anda memiliki proyek menarik atau membutuhkan bantuan tambahan yang sesuai dengan keahlian saya, jangan ragu untuk menghubungi saya!
         <br />
         <br />
-        Feel free to get in touch with me whenever you need assistance or want to discuss anything. I'm here to help you with pleasure! 🚀
+        Silakan hubungi saya kapan saja jika membutuhkan bantuan atau ingin berdiskusi mengenai sesuatu. Saya dengan sangat senang hati akan membantu Anda!🚀
       </p>
 
       <form
@@ -109,7 +109,7 @@ export default function Contact() {
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         <br />
         <br />
-        Visit the social media I have:
+        ✨Kunjungi media sosial yang saya miliki:
       </p>
 
       <motion.div

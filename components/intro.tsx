@@ -45,7 +45,7 @@ export default function Intro() {
         <span className="font-bold">Lintar Rezha Candra Krisna.</span>
       </motion.h1>
       <motion.h4 className="mb-10 px-4 text-xl font-medium leading-relaxed sm:text-2xl" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}>
-        <span className="font-semibold">4 months</span> self-taught experience in Web development, using <span className="font-semibold">TailwindCSS, HTML, CSS and JavaScript</span> for developing a website and web applications.
+        <span className="font-semibold">Enthusiastic</span> self-taught web developer passionate about building modern and interactive web applications. I specialize in front-end technologies such as <span className="font-semibold">TailwindCSS, HTML, CSS and JavaScript</span> for developing a website and web applications.
       </motion.h4>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -55,7 +55,7 @@ export default function Intro() {
           delay: 0.1,
         }}
       >
-        <Link href="#contact" className="group mr-2 bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition">
+        <Link href="#contact" className="group mr-2 bg-gray-600 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition">
           Contact me here <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 

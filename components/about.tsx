@@ -16,15 +16,18 @@ export default function About() {
         <BurstBload />
       </div>
       <p>
-        Hello, I'm Lintar Rezha! I am dedicated to continuously expanding my knowledge and skills in <span className="font-semibold">Fullstack web development </span> and <span className="font-semibold">Frontend developer </span>while
-        learning about new technologies.
-        <br />
-        <br />I am a student of Informatics Engineering at <span className="font-semibold">Universitas Muhammadiyah Malang (UMM)</span> and I am currently in the process of developing my skills in developing web applications, creating UI/UX
-        designs, and striving to create quality code.
+        Halo!🙌 Saya Lintar Rezha, seorang pengembang web junior yang bersemangat dan terus berupaya mengembangkan pengetahuan serta keterampilan dalam Fullstack Web Development dan Frontend Development. Saya menikmati proses mengubah ide menjadi
+        pengalaman digital yang fungsional, menarik, dan ramah pengguna😁👌.
         <br />
         <br />
-        Outside of coding I also like to exercise, such as Gym, Badminton, Billiard, Mini soccer, and many others. Because I think exercising is a way to maintain discipline and focus, values that I also apply in every project. My dream is
-        to be an innovative web developer, able to create solutions that are beneficial to many people.
+        Saya telah lulus dengan gelar Sarjana Teknik Informatika (S.Kom.) dari Universitas Muhammadiyah Malang (UMM)🎓. Selama masa studi, saya mendapatkan pengalaman langsung dalam pengembangan aplikasi web, perancangan UI/UX yang intuitif, serta
+        penulisan kode yang rapi dan mudah dipelihara. Saat ini saya sedang mencari peluang kerja untuk berkontribusi, belajar, dan berkembang bersama tim pengembang profesional💼.
+        <br />
+        <br />
+        Di luar dunia pemrograman, saya menyukai kegiatan seperti gym, badminton, biliar, dan mini soccer🏸. Saya percaya bahwa berolahraga membantu menjaga disiplin, fokus, dan konsistensi — nilai yang juga saya terapkan dalam setiap proyek yang saya kerjakan😊.
+        <br />
+        <br />
+        Tujuan saya adalah menjadi pengembang web atau pekerja yang inovatif, mampu menciptakan solusi digital yang efisien serta memberikan dampak positif bagi banyak orang melalui teknologi.
       </p>
     </motion.section>
   );

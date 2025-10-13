@@ -4,10 +4,23 @@
 
 html {
   --line-color: #e5e7eb;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 html.dark {
   --line-color: rgba(255, 255, 255, 0.2);
+}
+
+body {
+  overflow: hidden; /* Body tidak boleh punya scrollbar sendiri */
+  width: 100%;
+  position: relative;
+}
+
+/* Cegah elemen melebihi viewport width */
+* {
+  box-sizing: border-box;
 }
 
 .borderBlack {

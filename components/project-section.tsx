@@ -83,7 +83,7 @@ const ProjectSection: React.FC = () => {
               animate={{ opacity: inView ? 1 : 0, scale: inView ? 1 : 0.9 }}
               transition={{ duration: 0.6, delay: 0.1 * index }}
               exit={{ opacity: 0, scale: 0.9 }}
-              whileHover={{ scale: 0.5 }}
+              whileHover={{ scale: 1.05 }}
               style={{ cursor: "pointer" }}
               className="bg-white dark:bg-[#232D3F] text-black  border-white dark:border-[#232D3F] border-solid border-8 rounded-xl shadow-lg hover:shadow-xl overflow-hidden"
             >
@@ -98,7 +98,7 @@ const ProjectSection: React.FC = () => {
                 <h3 className="text-xl font-semibold mb-2 dark:text-white">
                   {project.title}
                 </h3>
-                <p className="text-gray-600 dark:text-gray-200 mb-4 text-justify line-clamp-1 leading-relaxed">
+                <p className="text-gray-600 dark:text-gray-200 mb-4 text-justify line-clamp-2 leading-relaxed">
                   {project.description}
                 </p>
                 <div className="flex justify-between items-end">
@@ -162,7 +162,7 @@ const ProjectSection: React.FC = () => {
             animate={{ opacity: 1 }}
           >
             {" "}
-            <div className="bg-white dark:bg-[#232D3F] p-8 max-w-[900px] w-full mx-4 my-8 rounded-xl shadow-lg relative overflow-y-scroll max-h-[80vh]">
+<div className="bg-white dark:bg-[#232D3F] p-8 max-w-[900px] w-full mx-4 my-8 rounded-xl shadow-lg relative overflow-y-auto max-h-[80vh]">
               <button
                 onClick={handleCloseModal}
                 className="absolute top-4 right-4 text-gray-600 dark:text-gray-200 hover:text-gray-700"

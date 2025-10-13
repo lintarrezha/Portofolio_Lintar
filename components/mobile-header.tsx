@@ -11,7 +11,7 @@ export default function MobileHeader() {
     closed: { opacity: 0, x: '-100%' },
   };
   return (
-    <div className="md:hidden flex fixed top-[0.25rem] right-1 h-12 -translate-x-1/2 py-2">
+    <div className="md:hidden flex fixed top-[0.25rem] right-2 h-12 py-2 z-[999]">
       <button
         onClick={() => setOpen((open) => !open)}
         type="button"
